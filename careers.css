@@ -1,0 +1,716 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-container {
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.rightnav {
+    display: flex;
+}
+
+.rightnav>li>a {
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+    color: #394149;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button a {
+    color: #f58a07;
+    font-weight: 600;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+}
+.about-container {
+    display: flex;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    padding-top: 166px;
+  }
+  
+
+  
+  .right img {
+    border-radius: 20px;
+    margin-top: 88px;
+    margin-left: 47px;
+  }
+  
+  .about-container {
+    width: 100%;
+  }
+  
+  .about_feature_container {
+    display: flex;
+    width: 75%;
+    gap: 26px;
+  }
+  
+  .about-feature {
+    padding-top: 48px;
+  }
+  
+  .about-feature_second {
+    padding-top: 48px;
+  }
+    .title h3{
+        font-family: Poppins;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #1D3444;
+    }
+    .title p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #5B5B5B;
+        width: 90%;
+        padding-top: 24px;
+    }
+    .about__btn{
+        background: #F58A07;
+        border-radius: 27px;
+        display: inline-block;
+        margin-top: 24px;
+        padding: 32px;
+        padding-top: 18px;
+        padding-bottom: 19px;
+    }
+    .about__btn a{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 106.5%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px;
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .career__cards{
+        margin-top: 64px;
+    }
+    .careers p{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #0D1317;
+    }
+    .first_card{
+        background: rgba(193, 228, 255, 0.3);
+        border-radius: 20px;
+        padding: 38px 40px;
+        padding-right: 130px;
+    }
+    .first_card h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:  #0D1317;
+    }
+    .first_card p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #394149;
+        opacity: 0.6;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .first_card a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #F58A07;
+    }
+    .second_card{
+        background: rgba(193, 228, 255, 0.3);
+        border-radius: 20px;
+        padding: 38px 40px;
+        padding-right: 176px;
+    }
+    .second_card h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:  #0D1317;
+    }
+    .second_card p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #394149;
+        opacity: 0.6;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .second_card a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #F58A07;
+    }
+
+
+    .third_card{
+        background: rgba(193, 228, 255, 0.3);
+        border-radius: 20px;
+        padding: 38px 40px;
+        padding-right: 183px;
+    }
+    .third_card h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:  #0D1317;
+    }
+    .third_card p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #394149;
+        opacity: 0.6;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .third_card a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #F58A07;
+    }
+
+
+
+
+    .fourth_card{
+        background: rgba(193, 228, 255, 0.3);
+        border-radius: 20px;
+        padding: 38px 40px;
+        padding-right: 132px;
+    }
+    .fourth_card h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:  #0D1317;
+    }
+    .fourthcard p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #394149;
+        opacity: 0.6;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .fourth_card a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #F58A07;
+    }
+    .fifth_card{
+        background: rgba(193, 228, 255, 0.3);
+        border-radius: 20px;
+        padding: 38px 40px;
+        padding-right: 160px;
+    }
+    .fifth_card h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:  #0D1317;
+    }
+    .fifth_card p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #394149;
+        opacity: 0.6;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .fifth_card a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #F58A07;
+    }
+
+    .latest__section {
+        background: #DCEAF5;
+        margin-top: 128px;
+      }
+      
+      .latest__heading {
+        padding-top: 96px;
+      }
+      
+      .latest__heading h2 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        color: #0D1317;
+      }
+      
+      .card__container {
+        width: 100%;
+        gap: 40px;
+        padding-top: 64px;
+        padding-bottom: 96px;
+      }
+      
+      .card {
+        width: 400px;
+        border-radius: 10px;
+        display: flex;
+        gap: 40px;
+      }
+      
+      .card img {
+        border-radius: 20px 20px 0px 0px;
+      }
+      
+      .card-head {
+        background: #fff;
+        border-radius: 20px;
+      }
+      
+      .card-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+        color: #0D1317;
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      
+      .card-description {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      
+      .card-body {
+        background-color: white;
+        border-radius: 10px;
+      }
+      
+      .btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 106.5%;
+        color: #F58A07;
+        margin-right: 8px;
+        padding-left: 32px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+      }
+      
+
+    footer{
+        background-color: #063255;
+    }
+    .footer{
+        overflow: hidden;
+    }    
+    
+    .footer-background{
+        color: #fff;
+    }    
+    
+    .footer-top{
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+    }    
+    
+    
+    .footer-left{
+        height: 199px;
+        width: 351px;
+    }    
+    
+    .footer-left-background{
+        color: #fff;
+    }    
+    
+    
+    .footer-left_heading{
+        height: 88px;
+        width: 351px;
+        padding-top:  32px;
+    }    
+    
+    .footer-left_heading h1{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }    
+    
+    .footer-left-icon{
+        height: 20px;
+        width: 136px;
+        border-radius: 0px;
+        gap: 20px;
+        display: flex;
+        margin-top: 30px;
+        padding-top: 37px;
+    }    
+        
+    .footer-list{
+        justify-content: space-between;
+    }    
+    
+    .footer-list1{
+        margin-top: -20px;
+        
+    }    
+    
+    .footer-list1 h4{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }    
+    
+    .footer-list2{
+        margin-top: 16px;
+    
+    }    
+    
+    .footer-list2 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    
+    .footer-list3{
+        margin-top: 16px;
+    }    
+    
+    .footer-list a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    
+    .footer-list4{
+        
+        
+        margin-top: 16px;
+    }    
+    
+    .footer-list4 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    
+    .footer-list5{
+        
+        margin-top: 16px;
+    }    
+    
+    .footer-list5 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+        
+    .footer-second-list1{
+        margin-top: -20px;
+    }
+    
+    .footer-second-list1 h4{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    .footer-second-list2{
+        
+        margin-top: 26px;
+        
+    }    
+    .footer-second-list2 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    .footer-second-list3{
+         
+        margin-top: 16px; 
+    }    
+    .footer-second-list3 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    
+    .footer-btn{
+        height: 175px;
+        width: 342px;
+        border-radius: 31px;
+        
+    }    
+    
+    .footer-btn_header{
+        margin-top: -20px;
+          
+    }    
+    
+    .footer-join_header p{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    .first-footer_btn{
+        height: 54px;
+        width: 342px;
+        border-radius: 31px;
+        background-color: #FFFFFF;
+        margin-top: 24px;
+    }    
+    
+    .footer-btn1{
+        height: 19px;
+        width: 222px;
+        padding: 15px 32px;
+        
+    }    
+    
+    .footer-btn1 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #9C9C9C;
+        
+    }    
+    .second-footer_btn{
+        height: 54px;
+        width: 156px;
+        border-radius: 31px;
+        background-color: #F58A07;
+        margin-top: 16px;
+        padding: 15px 32px;
+    }    
+    .footer-join-btn2{
+        height: 19px;
+        width: 92px;
+        
+    }    
+    .second-footer_btn2 a{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        
+    }    
+    
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -100px;
+    }    
+    
+    .footer-bottom-left-shape{
+        height: 144px;
+        width: 52px;
+        
+        margin-top: 150px;
+        background-color: #F58A07;
+        
+        border-top-right-radius: 20px;
+    }    
+    .footer-bottom-right-shape{
+        height: 287px;
+        width: 53px;
+        margin-top: -100px;
+        margin-left: 300px;
+        background-color: #F58A07;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }    
+    
+    .footer_credit{
+        height: 24px;
+        width: 1280px;
+        display: flex;   
+        margin-top: 180px;
+        margin-left: 278px;
+        justify-content: space-between;
+    }    
+    
+    .privacy{
+        display: flex;
+        justify-content: start;
+        height: 24px;
+        width: 298px;
+        border-radius: nullpx;
+        
+    }    
+    
+    .footer-credit{
+        height: 24px;
+        width: 300px;
+    }    
+    
+    .footer-credit a{
+        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    .footer-privacy{
+        height: 24px;
+        width: 200px;
+        
+    }    
+    .footer-privacy a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    .footer-terms{
+        height: 24px;
+        width: 250px;
+        
+    }    
+    .footer-terms a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }    
+    
